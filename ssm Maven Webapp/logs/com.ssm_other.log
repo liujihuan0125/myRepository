@@ -1,0 +1,54 @@
+2017-05-08 17:12:34.128 INFO  [main] test.spring.test[Math Processing Error]:31 -[用户：admin]获取成功
+2017-05-08 17:13:59.611 INFO  [main] test.spring.test[Math Processing Error]:31 -[用户：admin]获取成功
+2017-05-08 17:15:56.628 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation[Math Processing Error]:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-08 17:15:56.768 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory[Math Processing Error]:362 -Property 'configLocation' not specified, using default MyBatis Configuration
+2017-05-08 17:15:56.846 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory[Math Processing Error]:472 -Parsed mapper file: 'file [D:\3_workspaces\ssm Maven Webapp\target\classes\com\ssm\mapping\UserMapper.xml]'
+2017-05-08 17:15:56.926 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession[Math Processing Error]:104 -Creating a new SqlSession
+2017-05-08 17:15:56.926 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession[Math Processing Error]:120 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@876c964]
+2017-05-08 17:15:57.098 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection[Math Processing Error]:86 -JDBC Connection [jdbc:mysql://127.0.0.1:3306/mydb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+2017-05-08 17:15:57.098 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -==>  Preparing: SELECT * FROM user_t WHERE id=? 
+2017-05-08 17:15:57.129 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -==> Parameters: 1(String)
+2017-05-08 17:15:57.129 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -<==      Total: 1
+2017-05-08 17:15:57.129 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession[Math Processing Error]:163 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@876c964]
+2017-05-08 17:15:57.129 DEBUG [main] org.mybatis.spring.SqlSessionUtils.beforeCompletion[Math Processing Error]:287 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@876c964]
+2017-05-08 17:15:57.129 DEBUG [main] org.mybatis.spring.SqlSessionUtils.beforeCompletion[Math Processing Error]:292 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@876c964]
+2017-05-08 17:15:57.129 INFO  [main] test.spring.test[Math Processing Error]:31 -[用户：admin]获取成功
+2017-05-08 17:20:24.080 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation[Math Processing Error]:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-08 17:20:24.221 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory[Math Processing Error]:362 -Property 'configLocation' not specified, using default MyBatis Configuration
+2017-05-08 17:20:24.299 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory[Math Processing Error]:472 -Parsed mapper file: 'file [D:\3_workspaces\ssm Maven Webapp\target\classes\com\ssm\mapping\UserMapper.xml]'
+2017-05-08 17:20:24.376 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession[Math Processing Error]:104 -Creating a new SqlSession
+2017-05-08 17:20:24.376 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession[Math Processing Error]:120 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@489de114]
+2017-05-08 17:20:24.548 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection[Math Processing Error]:86 -JDBC Connection [jdbc:mysql://127.0.0.1:3306/mydb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+2017-05-08 17:20:24.548 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -==>  Preparing: SELECT * FROM user_t WHERE id=? 
+2017-05-08 17:20:24.579 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -==> Parameters: 1(String)
+2017-05-08 17:20:24.579 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -<==      Total: 1
+2017-05-08 17:20:24.595 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession[Math Processing Error]:163 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@489de114]
+2017-05-08 17:20:24.595 DEBUG [main] org.mybatis.spring.SqlSessionUtils.beforeCompletion[Math Processing Error]:287 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@489de114]
+2017-05-08 17:20:24.595 DEBUG [main] org.mybatis.spring.SqlSessionUtils.beforeCompletion[Math Processing Error]:292 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@489de114]
+2017-05-08 17:20:24.595 INFO  [main] test.spring.test[Math Processing Error]:31 -[用户：admin]获取成功
+2017-05-08 17:20:55.397 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation[Math Processing Error]:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-08 17:20:55.553 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory[Math Processing Error]:362 -Property 'configLocation' not specified, using default MyBatis Configuration
+2017-05-08 17:20:55.635 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory[Math Processing Error]:472 -Parsed mapper file: 'file [D:\3_workspaces\ssm Maven Webapp\target\classes\com\ssm\mapping\UserMapper.xml]'
+2017-05-08 17:20:55.713 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession[Math Processing Error]:104 -Creating a new SqlSession
+2017-05-08 17:20:55.713 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession[Math Processing Error]:120 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2081bc03]
+2017-05-08 17:20:55.901 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection[Math Processing Error]:86 -JDBC Connection [jdbc:mysql://127.0.0.1:3306/mydb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+2017-05-08 17:20:55.901 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -==>  Preparing: SELECT * FROM user_t WHERE id=? 
+2017-05-08 17:20:55.916 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -==> Parameters: 1(String)
+2017-05-08 17:20:55.932 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -<==      Total: 1
+2017-05-08 17:20:55.932 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession[Math Processing Error]:163 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2081bc03]
+2017-05-08 17:20:55.932 DEBUG [main] org.mybatis.spring.SqlSessionUtils.beforeCompletion[Math Processing Error]:287 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2081bc03]
+2017-05-08 17:20:55.932 DEBUG [main] org.mybatis.spring.SqlSessionUtils.beforeCompletion[Math Processing Error]:292 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2081bc03]
+2017-05-08 17:20:55.932 INFO  [main] test.spring.test[Math Processing Error]:31 -[用户：admin]获取成功
+2017-05-08 17:21:25.633 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation[Math Processing Error]:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-05-08 17:21:25.789 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory[Math Processing Error]:362 -Property 'configLocation' not specified, using default MyBatis Configuration
+2017-05-08 17:21:25.876 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory[Math Processing Error]:472 -Parsed mapper file: 'file [D:\3_workspaces\ssm Maven Webapp\target\classes\com\ssm\mapping\UserMapper.xml]'
+2017-05-08 17:21:25.954 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession[Math Processing Error]:104 -Creating a new SqlSession
+2017-05-08 17:21:25.954 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession[Math Processing Error]:120 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bb3e5bf]
+2017-05-08 17:21:26.141 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection[Math Processing Error]:86 -JDBC Connection [jdbc:mysql://127.0.0.1:3306/mydb?useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+2017-05-08 17:21:26.141 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -==>  Preparing: SELECT * FROM user_t WHERE id=? 
+2017-05-08 17:21:26.173 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -==> Parameters: 1(String)
+2017-05-08 17:21:26.188 DEBUG [main] com.ssm.dao.UserMapper.findUserById.debug[Math Processing Error]:139 -<==      Total: 1
+2017-05-08 17:21:26.188 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession[Math Processing Error]:163 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bb3e5bf]
+2017-05-08 17:21:26.188 DEBUG [main] org.mybatis.spring.SqlSessionUtils.beforeCompletion[Math Processing Error]:287 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bb3e5bf]
+2017-05-08 17:21:26.188 DEBUG [main] org.mybatis.spring.SqlSessionUtils.beforeCompletion[Math Processing Error]:292 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bb3e5bf]
+2017-05-08 17:21:26.188 INFO  [main] test.spring.test[Math Processing Error]:31 -[用户：admin]获取成功

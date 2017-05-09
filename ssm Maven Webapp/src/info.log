@@ -1,0 +1,10 @@
+2017-05-08 15:42:05 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316) ]
+INFO:Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-05-08 15:42:05 下午 [Thread: main][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:513) ]
+INFO:Refreshing org.springframework.context.support.GenericApplicationContext@489eeaeb: startup date [Mon May 08 15:42:05 CST 2017]; root of context hierarchy
+2017-05-08 15:42:06 下午 [Thread: main][ Class:org.springframework.beans.factory.config.PropertyPlaceholderConfigurer >> Method: org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) ]
+INFO:Loading properties file from class path resource [jdbc.properties]
+2017-05-08 15:42:06 下午 [Thread: main][ Class:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor >> Method: org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:141) ]
+INFO:JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-05-08 15:42:06 下午 [Thread: Thread-1][ Class:org.springframework.context.support.GenericApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:873) ]
+INFO:Closing org.springframework.context.support.GenericApplicationContext@489eeaeb: startup date [Mon May 08 15:42:05 CST 2017]; root of context hierarchy
